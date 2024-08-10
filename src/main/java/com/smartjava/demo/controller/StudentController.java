@@ -24,6 +24,7 @@ public class StudentController {
 	
 	@GetMapping("/list")
 	public ResultResponse getList() {
+		System.out.println("Hello smart java");
 		return service.getList();
 	} 
 	

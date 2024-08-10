@@ -31,6 +31,7 @@ public class StudentService {
 		MetaDataResponse metadataResponse = new MetaDataResponse();
 		ResultResponse resultResponse = new ResultResponse();
 		try {
+			System.out.println("Hello smart java");
 			metadataResponse.setCode("200K");
 			metadataResponse.setMessage("Get all records from database");
 			metadataResponse.setNoOfRecords(sRepository.findAll().size());
